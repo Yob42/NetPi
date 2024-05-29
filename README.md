@@ -36,14 +36,17 @@ Python 3
 Git
 
 Installation
+
 Create your own directory for the project:
 
 mkdir -p /foo/do/speedtest
+
 Replace /foo/do/speedtest with the directory path where you want to install the project.
 
 Navigate to your project directory:
 
 cd /foo/do/speedtest
+
 Clone the repository into your directory:
 
 git clone https://github.com/Yob42/NetPi.git .
@@ -55,20 +58,25 @@ chmod +x run.sh install.sh startup.sh
 Run the installation script to install dependencies:
 
 ./install.sh
+
 Set up the cronjob to start the application on reboot:
 Edit your crontab using:
+
 crontab -e
+
 @reboot /foo/do/speedtest/run.sh
 
 Usage
 You can also manually start it by running:
 
 ./run.sh
+
 Web Interface
 Once the server is running, you can access the web interface by navigating to http://<raspberry-pi-ip>:5000 in your web browser.
 
 Network Speed Results: Displays the latest network speed test results.
 Ping Results: Displays the latest ping results and the last disconnect time.
+
 Running Tests Manually
 You can manually trigger the speed test and ping test by running the respective scripts:
 
