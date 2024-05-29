@@ -41,13 +41,13 @@ Installation
 
 Create your own directory for the project:
 
-mkdir -p /foo/do/speedtest
+mkdir -p /home/admin/projects/speedtest
 
-Replace /foo/do/speedtest with the directory path where you want to install the project.
+Replace /home/admin/projects/speedtest with the directory path where you want to install the project.
 
 Navigate to your project directory:
 
-cd /foo/do/speedtest
+cd /home/admin/projects/speedtest
 
 Clone the repository into your directory:
 
@@ -62,7 +62,7 @@ Edit your crontab using:
 
 crontab -e
 
-@reboot /foo/do/speedtest/run.sh
+@reboot /home/admin/projects/speedtest/run.sh
 
 Usage
 You can also manually start it by running:
@@ -79,11 +79,11 @@ Running Tests Manually
 You can manually trigger the speed test and ping test by running the respective scripts:
 
 Speed Test:
-source foo/do/speedtest/st_env/bin/activate
+source /home/admin/projects/speedtest/st_env/bin/activate
 python speedtest.py
 
 Ping Test:
-source foo/do/speedtest/st_env/bin/activate
+source /home/admin/projects/speedtest/st_env/bin/activate
 python ping.py
 
 
