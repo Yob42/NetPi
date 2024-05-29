@@ -61,3 +61,4 @@ sudo chown -R admin:admin "$PROJECT_ROOT"
 echo "Changed ownership to admin:admin for $PROJECT_ROOT"
 
 echo "Startup script completed."
+echo 'You can now access the WebUI at http://192.your.pi.ip:5000"
