@@ -46,7 +46,7 @@ Navigate to your project directory:
 cd /foo/do/speedtest
 Clone the repository into your directory:
 
-git clone https://github.com/yourusername/str.git .
+git clone https://github.com/Yob42/NetPi.git .
 
 Make the scripts executable:
 
