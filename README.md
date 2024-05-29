@@ -51,6 +51,7 @@ git clone https://github.com/Yob42/NetPi.git .
 Make the scripts executable:
 
 chmod +x run.sh install.sh startup.sh
+
 Run the installation script to install dependencies:
 
 ./install.sh
