@@ -13,10 +13,11 @@ speedtest/
 ├── speedtest.py
 ├── startup.sh
 
+└── templates/
+    └── index.html
+
 ├── results/
 │   ├── ping/
 │   └── speedtest/
-└── templates/
-    └── index.html
 
 This prodject is under development, please feel free to provide feedback
