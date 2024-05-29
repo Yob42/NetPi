@@ -1,0 +1,5 @@
+Flask==3.0.3
+plotly==5.3.1
+paramiko==2.7.2
+Werkzeug>=2.0.2
+speedtest-cli
