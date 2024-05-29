@@ -1,6 +1,8 @@
 # NetPi
 This project sets up a Flask server on a Raspberry Pi to facilitate network connectivity tests using Python scripts. It runs speed tests and ping tests periodically, saves the results, and provides a web interface to view the results.
 
+While this project is under development it works best if you can setup this project up in /home/admin/projects/speedtest 
+You can install and run this anywhere if you change the paths to your desired structure. 
 ## Project Structure
 
 speedtest/
