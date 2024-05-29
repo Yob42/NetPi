@@ -12,8 +12,6 @@ speedtest/
 ├── run.sh
 ├── speedtest.py
 ├── startup.sh
-
-├── instance/
 ├── results/
 │   ├── ping/
 │   └── speedtest/
